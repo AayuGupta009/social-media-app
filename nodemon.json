@@ -1,0 +1,13 @@
+{
+    "restartable": "false",
+    "verbose": "true",
+    "ignore": [
+        ".git",
+        "node_modules/*",
+        "logs/*"
+    ],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js,json,yaml"
+}
