@@ -2,12 +2,13 @@ import styles from  './App.module.css';
 import { useState } from 'react'
 
 function App() {
-  const [age , setAge] = useState(0)
+  const [input, setInput] = useState('')
+  const setInputValue = (event) => setInput(event.target.value)
   return (
     <div className={styles.App}>
-      {age}
+      <input type="text" onChange={setInputValue} />
       <br />
-      <button onClick={() => setAge( age + 1)}>Click me!</button>
+      {input}
     </div>
   );
 }
