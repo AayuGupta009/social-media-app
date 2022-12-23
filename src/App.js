@@ -2,13 +2,13 @@ import styles from  './App.module.css';
 import { useState } from 'react'
 
 function App() {
-  const [toggleText, setToggleText] = useState(true)
-  const changeToggle = () => setToggleText(!toggleText)
+  const [changeColor, setChangeColor] = useState("green")
+  const alterColor = () => setChangeColor(changeColor === 'green' ? "red" : "green")
   return (
     <div className={styles.App}>
-      <button onClick={changeToggle}>Show/Hide</button>
+      <button onClick={alterColor}>Change text Color</button>
       <br />
-      {toggleText && <h1>Hi</h1>}
+      <h1 style={{color : changeColor}}>Hi</h1>
     </div>
   );
 }
