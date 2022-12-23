@@ -2,13 +2,13 @@ import styles from  './App.module.css';
 import { useState } from 'react'
 
 function App() {
-  const [input, setInput] = useState('')
-  const setInputValue = (event) => setInput(event.target.value)
+  const [toggleText, setToggleText] = useState(true)
+  const changeToggle = () => setToggleText(!toggleText)
   return (
     <div className={styles.App}>
-      <input type="text" onChange={setInputValue} />
+      <button onClick={changeToggle}>Show/Hide</button>
       <br />
-      {input}
+      {toggleText && <h1>Hi</h1>}
     </div>
   );
 }
