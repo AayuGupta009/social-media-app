@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "63c653e135fc5d1377d6b0d0"
+  },
+  "name": {
+    "en": "Uttar-Pradesh",
+    "hi": "उत्तरप्रदेश"
+  }
+},{
+  "_id": {
+    "$oid": "63c693ab35fc5d1377d6b0d9"
+  },
+  "name": {
+    "en": "Uttarakhand",
+    "hi": "उत्तराखंड"
+  }
+},{
+  "_id": {
+    "$oid": "63c693b535fc5d1377d6b0da"
+  },
+  "name": {
+    "en": "Madhya-Pradesh",
+    "hi": "मध्य प्रदेश"
+  }
+}]
