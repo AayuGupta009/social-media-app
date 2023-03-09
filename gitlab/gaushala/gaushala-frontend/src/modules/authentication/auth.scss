@@ -1,0 +1,88 @@
+@import "../../assets/style/sass/variable";
+
+.auth_box {
+  .logo-image1 {
+    text-align: center;
+    margin-bottom: 0.6rem;
+    img {
+      width: 93px;
+      height: 116px;
+    }
+  }
+  .login-text1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    h1 {
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 2rem;
+      color: #000000;
+    }
+  }
+  .rember_common_bx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .MuiFormControlLabel-label {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+  }
+  .text-box2 p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000000;
+    margin-bottom: 14px;
+  }
+  .text3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #000000;
+    text-align: right;
+    cursor: pointer;
+  }
+  .MuiInputBase-root {
+    height: 54px !important;
+    border-radius: 15px !important;
+  }
+  .login_btn_custom button {
+    width: 100%;
+    border-radius: 15px;
+    height: 54px;
+    margin-top: 4rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  .back_to_login button {
+    width: 100%;
+    border-radius: 15px;
+    height: 54px;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: $primary;
+    background-color: #ffffff;
+    border: 1px solid $primary;
+  }
+  .form-div {
+    width: 60%;
+  }
+  .flex_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+}
+.login_image {
+  background-image: url("../../../public/bg.png");
+  min-height: 100vh;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

@@ -1,0 +1,46 @@
+.add_request_form {
+  .add_bxx {
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+    border-radius: 10px;
+    .box {
+      padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    }
+    .text_bx {
+      margin-bottom: 8px;
+      p {
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+        color: #343a40;
+      }
+    }
+    .text_bx.title_bx {
+      height: 68px;
+      display: flex;
+      align-items: center;
+      padding-left: 2.5rem;
+      margin-bottom: 0;
+      border-bottom: 1px solid #eaeaea;
+    }
+    .view_bx {
+      background: #f8f8f8;
+      border-radius: 7px;
+      height: 54px;
+      display: flex;
+      align-items: center;
+      padding-left: 1rem;
+      margin-bottom: 1.2rem;
+    }
+  }
+  .ngo_bx {
+    padding: 1.5rem;
+  }
+}
+.search_filter_bx {
+  display: flex;
+  justify-content: space-between;
+  .MuiInputBase-root {
+    width: 88%;
+  }
+}

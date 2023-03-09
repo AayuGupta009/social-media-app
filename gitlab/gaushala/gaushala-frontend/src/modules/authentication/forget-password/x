@@ -1,0 +1,13 @@
+// const currentLng = i18n.language;
+// console.log(currentLng, "kk");
+// const [validationSchema, setValidationSchema] = useState(null);
+// useEffect(() => {
+//   setValidationSchema(
+//     yup.object({
+//       email: yup
+//         .string()
+//         .email(`${t("valdate.email2")}`)
+//         .required(`${t("valdate.email3")}`),
+//     })
+//   );
+// }, [t, currentLng]);

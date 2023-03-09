@@ -1,0 +1,39 @@
+@import "../../assets/style/sass/variable";
+
+.card_bx {
+  background-color: $primary;
+  height: 230px;
+  box-shadow: 0px 4px 103px rgba(50, 50, 71, 0.01),
+    0px 4px 59px rgba(50, 50, 71, 0.06);
+  border-radius: 16px;
+  flex-direction: column;
+  display: flex;
+  padding: 1rem;
+  .card_header {
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.625rem;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+  }
+  .card_icon {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-weight: 600;
+      font-size: 3rem;
+      line-height: 3.68rem;
+      letter-spacing: 0.25px;
+      color: #ffffff;
+    }
+  }
+}
+.card_bx.curser {
+  cursor: pointer;
+}
+.chart_bx_1 {
+  background: rgba(170, 125, 84, 0.5);
+  border-radius: 10px;
+}

@@ -1,0 +1,45 @@
+.main_logo {
+  display: flex;
+  align-items: center;
+  // margin-left: 8%;
+  img {
+    height: 75px;
+    width: 85px;
+  }
+  svg {
+    width: 190px;
+    height: 48px;
+  }
+}
+.profile_bx {
+  display: flex;
+  align-items: center;
+  margin-left: 0.7rem;
+  .profile_name {
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      color: #294566;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 0.75rem;
+      line-height: 1.25rempx;
+      margin-right: 2px;
+    }
+  }
+  .profile_icon {
+    display: flex;
+    align-items: center;
+  }
+}
+.header-button {
+  border: 1px solid #000000 !important;
+  border-radius: 18px !important;
+  padding: 6px 30px !important;
+  @media (width < 900) {
+    padding: 6px 10px !important;
+  }
+}
+// ----------------------/////////css///

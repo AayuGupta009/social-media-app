@@ -1,0 +1,28 @@
+@import "../../assets/style/sass/variable";
+
+.double_btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+
+  button {
+    height: 2.56rem;
+    width: 10.2rem;
+  }
+
+  button:first-child {
+    margin-right: 1.2rem;
+    color: $btnText;
+  }
+}
+.autocomplete_bx {
+  .title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #001e50;
+    margin-bottom: 2.5rem;
+  }
+}

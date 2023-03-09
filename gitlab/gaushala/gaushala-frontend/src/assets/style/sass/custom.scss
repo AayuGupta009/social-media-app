@@ -1,0 +1,598 @@
+@import "./variable";
+// css written here--------------------------------/////////
+
+body {
+  font-family: $font-family;
+  background-color: #f8f8f8 !important;
+}
+.MuiButtonBase-root {
+  box-shadow: none !important;
+}
+// .MuiPaper-root {
+//   border-radius: 0px !important;
+//   box-shadow: none !important;
+// }
+// .MuiInputBase-root {
+//   border-radius: 7px !important;
+//   height: 54px !important;
+// }
+.error {
+  color: red;
+  font-size: 12px;
+  padding-left: 5px;
+  margin-top: 2px;
+}
+.global_select {
+  .MuiInputBase-root {
+    height: 50px !important;
+    background: #ffffff;
+    outline: 2px solid #ef8c31 !important;
+    border-radius: 12px 12px 0 0 !important;
+    height: 45px !important;
+    &:focus-within {
+      outline: 2px solid #000000 !important;
+    }
+    &:hover {
+      outline: 2px solid #000000 !important;
+    }
+  }
+}
+.filter_icon {
+  height: 45px;
+  width: 45px;
+  background-color: $primary;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.main_title {
+  position: sticky;
+  top: 8px;
+  background: white;
+  z-index: 10;
+  p {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 0.7rem;
+    padding-top: 0.4rem;
+    margin-bottom: 0.5rem;
+  }
+}
+.filter_btn {
+  padding: 1rem 2.5rem 0.9rem 2.5rem;
+  position: sticky;
+  bottom: 8px;
+  background: white;
+  button {
+    border-radius: 100px;
+    min-height: 45px;
+  }
+}
+.add_btn button {
+  border-radius: 100px;
+  height: 2.7rem;
+  width: 100%;
+  font-weight: 600;
+
+  .MuiButton-startIcon {
+    margin-right: 14px !important;
+  }
+}
+
+.add_bx {
+  .MuiCard-root {
+    border-radius: 10px !important;
+    border: 1px solid $card_border !important;
+    box-shadow: none !important;
+  }
+
+  .MuiCardContent-root {
+    padding: 2.125rem !important;
+  }
+
+  .MuiTypography-root {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .input_label {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 27px;
+    color: $inputLabel;
+    margin-bottom: 0.5rem;
+  }
+  .main_input_wrapper {
+    .MuiInputBase-root {
+      height: 54px;
+    }
+  }
+  .add_btns {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+
+    button {
+      height: 2.56rem;
+      width: 10.2rem;
+    }
+
+    button:first-child {
+      margin-right: 1.2rem;
+      color: $btnText;
+    }
+  }
+  .bx_level {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 1.125rem !important;
+    line-height: 1.688rem !important;
+    margin-bottom: 10px;
+    color: $blackColor;
+    margin-bottom: 8.5px;
+    margin-top: 3rem;
+    display: block;
+  }
+  .add_image_bx {
+    background-color: $primary;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    @media (max-width: 768px) {
+      height: 200px;
+    }
+    .camera_img {
+      width: 48px;
+      height: 48px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.375rem;
+      color: #ffffff;
+      margin-top: 9px;
+    }
+  }
+  .input_label {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 1.125rem !important;
+    line-height: 1.688rem !important;
+    margin-bottom: 10px;
+    color: $blackColor;
+  }
+  .MuiButton-endIcon {
+    margin-left: 1.1rem !important;
+  }
+}
+
+.cattle_dialogue_main {
+  .MuiDialogContent-root {
+    padding: 8px !important;
+  }
+  .MuiButtonBase-root {
+    height: 41px !important;
+  }
+  .MuiDialogActions-root {
+    margin-top: 4rem;
+  }
+  .MuiInputBase-root {
+    height: 54px !important;
+    border-radius: 7px !important;
+  }
+  .MuiPaper-root {
+    width: 35% !important;
+    padding: 1.875rem 2.5rem 2.5rem 2.5rem;
+    border-radius: 10px !important;
+    @media (max-width: 768px) {
+      width: 100% !important;
+    }
+    .MuiDialogTitle-root {
+      border-left: 4px solid $primary;
+      padding: 7px 7px 7px 12px !important;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.25rem !important;
+      line-height: 1.25rem;
+      display: flex;
+      align-items: center;
+      color: #323338;
+      justify-content: space-between;
+    }
+    .input_label {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.125rem;
+      line-height: 1.688rem;
+      color: #343a40;
+      margin-bottom: 0.6rem;
+      margin-top: 2rem;
+    }
+  }
+}
+.cattle_dialogue_main.awareness {
+  .MuiPaper-root {
+    max-width: 1024px !important;
+    width: 47% !important;
+    @media (max-width: 768px) {
+      width: 100% !important;
+    }
+  }
+  .dialogue_bx_content {
+    margin-top: 2.5rem;
+    p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 1.313rem;
+      color: #001e50;
+      margin-bottom: 6px;
+    }
+    span {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 1.313rem;
+      color: #000000;
+    }
+  }
+}
+.MuiDialogActions-root {
+  margin-top: 1.5rem !important;
+  .singlebtn_class {
+    display: flex;
+    justify-content: center;
+    button {
+      height: 44px !important;
+      width: 33%;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      line-height: 1.813rem;
+      @media (max-width: 768px) {
+        width: 80%;
+      }
+    }
+  }
+}
+.top_search_filter_bx .MuiButton-startIcon {
+  margin-right: 0.5rem !important;
+}
+.main_upload_bx {
+  label {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 27px;
+    color: #343a40;
+    display: block;
+  }
+  label:first-child {
+    margin-bottom: 0.625rem;
+  }
+  .upload_bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: 1px dashed #cdcdcd;
+    cursor: pointer;
+    .bx {
+      text-align: center;
+      p {
+        font-weight: 400;
+        font-size: 1rem;
+        color: #0075ff;
+        line-height: 1rem;
+      }
+      span {
+        font-weight: 400;
+        font-size: 0.8rem;
+        color: #716a6a;
+      }
+    }
+  }
+}
+.Toastify__toast-container {
+  z-index: 99999999999 !important;
+}
+.web_drawer .MuiPaper-root::-webkit-scrollbar {
+  width: 8px !important; /* width of the entire scrollbar */
+}
+
+.web_drawer .MuiPaper-root::-webkit-scrollbar-track {
+  background: #aa7d54; /* color of the tracking area */
+}
+
+.web_drawer .MuiPaper-root::-webkit-scrollbar-thumb {
+  background-color: #fff transparent !important; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px solid #aa7d54; /* creates padding around scroll thumb */
+}
+
+body::-webkit-scrollbar {
+  width: 8px !important; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #aa7d54; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff !important; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px solid #aa7d54; /* creates padding around scroll thumb */
+}
+.custom_header {
+  border-left: 4px solid $primary;
+  padding: 7px 7px 7px 12px !important;
+  font-weight: 600 !important;
+  font-size: 1.25rem !important;
+  line-height: 1.25rem !important;
+  display: flex;
+  align-items: center;
+  color: #323338;
+  justify-content: space-between;
+  margin-bottom: 1rem !important;
+}
+.large_dailogue_box {
+  .MuiPaper-root {
+    max-width: 1624px !important;
+    width: 50% !important;
+    border-radius: 15px;
+    padding: 1.875rem 2.5rem 1.5rem 2.5rem;
+    @media (max-width: 768px) {
+      width: 100% !important;
+      margin: 10px !important;
+    }
+    .MuiDialogContent-root {
+      padding: 0;
+      margin-top: 1rem;
+    }
+  }
+}
+.wrapper_card {
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2.5rem;
+  .MuiPaper-root {
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+  }
+}
+.tabpanel_bx {
+  .MuiBox-root {
+    padding: 0 !important;
+  }
+}
+.tab_main .MuiButtonBase-root {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #000000;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-transform: capitalize;
+}
+
+.top_bx {
+  .MuiTypography-body {
+    color: #001e50;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .content_bx {
+    p {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      color: #000000;
+    }
+  }
+}
+.tab_user .MuiTabs-flexContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.tab_user .MuiTabs-scroller {
+  overflow-x: auto !important;
+}
+.reason_bx {
+  padding: 0.5rem 2rem 2rem 2rem;
+  .header p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.56rem;
+    text-align: center;
+    color: #001e50;
+  }
+  .text_bx p {
+    margin-top: 2.5rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #001e50;
+  }
+}
+.table_title {
+  p {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #000000;
+  }
+}
+.editor_wrapper {
+  margin-top: 1.7rem;
+  .ck-reset_all :not(.ck-reset_all-excluded *),
+  .ck.ck-reset_all {
+    color: $primary !important;
+    border: none;
+  }
+  .ck.ck-editor__main > .ck-editor__editable:not(.ck-focused),
+  .editor_wrapper {
+    border: none;
+    min-height: 460px;
+    background: #eaeaea;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  }
+  .ck.ck-toolbar {
+    border: none;
+    margin-bottom: 1.4rem;
+  }
+  .ck.ck-button {
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .ck.ck-editor__editable.ck-focused {
+    border: none !important;
+    min-height: 460px;
+    background: #eaeaea;
+    border-radius: 20px !important;
+    outline: 1px solid $primary !important;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  }
+}
+.edit_btn_custom {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 100%;
+  button {
+    width: 13%;
+    height: 41px;
+    border-radius: 5px;
+    @media (max-width: 476px) {
+      width: 50%;
+    }
+  }
+}
+// .large_dailogue_box.description_modal .MuiDialogTitle-root {
+//   display: none;
+// }
+.image_bx {
+  position: relative;
+  .dot_icon {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+  }
+  .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    height: 300px;
+    top: 0;
+    width: 100%;
+    border-radius: 12px;
+  }
+}
+.fullscreen_image p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  img {
+    height: 55%;
+    width: 45%;
+    @media (max-width: 476px) {
+      height: 50%;
+      width: 90%;
+    }
+  }
+}
+.cms_bx {
+  padding: 1.8rem;
+  background: #d9d9d9;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+.add_bx .main_input_wrapper.cms .MuiInputBase-root {
+  background-color: #fff;
+}
+.cms .MuiInputBase-root {
+  background-color: #fff;
+}
+.link_more {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  svg {
+    margin-left: 8px;
+  }
+}
+.mySvg {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.pdf_main {
+  .pdf_bx {
+    position: relative;
+    display: inline-block;
+    .pdf {
+      width: 60px;
+      height: 60px;
+    }
+    .close_icon {
+      position: absolute;
+      top: -18px;
+      right: -13px;
+    }
+  }
+}
+.prewviewImage {
+  text-align: center;
+  .image_bx {
+    position: relative;
+    .MuiIconButton-root {
+      position: absolute;
+      top: -28px;
+    }
+  }
+  img {
+    width: 65%;
+    height: 270px;
+  }
+}
+
+.prewviewImage.awarness {
+  img {
+    height: 315px;
+  }
+}
+.action-icon {
+  .blockUnblock {
+    path {
+      stroke: #ff0000 !important;
+    }
+  }
+}
+.select-dropdown {
+  position: fixed;
+  z-index: 9999;
+}
+// css end ------------------/////////

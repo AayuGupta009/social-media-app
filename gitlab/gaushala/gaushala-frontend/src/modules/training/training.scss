@@ -1,0 +1,42 @@
+.training_main {
+  .training_wraper {
+    .css-yy6tsr-MuiPaper-root-MuiCard-root {
+      box-shadow: none;
+      border: 0.929665px solid #cdcdcd;
+      border-radius: 0.8rem;
+    }
+    .card_bottom_text {
+      padding: 1.3rem 0;
+      h5 {
+        font-size: 1rem;
+        font-family: "Poppins";
+        font-weight: 600;
+        line-height: 1.5rem;
+        padding-left: 1.6rem;
+      }
+    }
+  }
+  .training_wraper:first-child h4 {
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+    line-height: 1.9rem !important;
+    padding-bottom: 1.7rem;
+  }
+}
+.button_bx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  button {
+    width: 20%;
+  }
+}
+//mobile view
+@media (max-width: 768px) {
+  .box_layout_training {
+    .training_main .training_wraper {
+      padding: 1rem 1rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+// media query for mobile view--------------------------////////
+@media (max-width: 900px) {
+  html {
+    font-size: 67.5% !important;
+  }
+
+  .main_logo {
+    img {
+      margin-right: 0.8rem;
+      width: 63px !important;
+      height: 52px !important;
+    }
+    svg {
+      width: 80px !important;
+      height: 40px !important;
+    }
+  }
+}
+// media query for mobile view end--------------------///////////////////

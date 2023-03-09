@@ -1,0 +1,45 @@
+.delete_modal {
+  .MuiPaper-root {
+    margin: 15px;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: none;
+    @media (max-width: "576px") {
+      width: 100%;
+    }
+  }
+  .delete_main_wrapper {
+    padding: 3rem;
+    text-align: center;
+    svg {
+      margin-bottom: 2.3rem;
+    }
+    .title {
+      p {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #323338;
+      }
+      margin-bottom: 0.8rem;
+    }
+    .subtitle {
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #323338;
+      }
+      margin-bottom: 1.8rem;
+    }
+    .button_wrapper {
+      button {
+        height: 2.56rem;
+        width: 10.2rem;
+      }
+      button:first-child {
+        margin-right: 2rem;
+      }
+    }
+  }
+}
